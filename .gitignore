@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large neuroimaging data (do not commit to GitHub)
+data/*.nii
+data/*.nii.gz
+data/*.BRIK
+data/*.HEAD
+data/*.brik
+data/*.head
+
+# Keep data README
+!data/README.md
+
+# Optional: uncomment to exclude output files (they're small, usually fine to include)
+# output/*.csv
+# output/*.png
