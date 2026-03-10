@@ -11,6 +11,14 @@ Place the following files in this directory to run the analysis scripts:
 | `KidVid_group_prelim_030526+tlrc.HEAD` | AFNI header for group statistical map | Your 3dLME output |
 | `KidVid_group_prelim_030526+tlrc.BRIK` | AFNI data (binary) | Your 3dLME output |
 
+### For per-subject ROI extraction (`extract_roi_betas_subjects.py`)
+
+| File | Description |
+|------|-------------|
+| `subject_list.txt` | One subject ID per line (e.g., 019, 021, 024). Copy from `subject_list.txt.example`. |
+| `stats.sub-{XXX}_REML+tlrc.HEAD` | AFNI header for subject stats |
+| `stats.sub-{XXX}_REML+tlrc.BRIK` | AFNI data (binary) |
+
 ### For atlas plotting (`plot_haskins_atlas.py`) and ROI extraction
 
 | File | Description | Source |

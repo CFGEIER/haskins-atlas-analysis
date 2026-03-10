@@ -31,6 +31,25 @@ data/*.head
 # Keep data README
 !data/README.md
 
-# Optional: uncomment to exclude output files (they're small, usually fine to include)
-# output/*.csv
-# output/*.png
+# Generated output (recreate with scripts)
+output/*.csv
+output/*.png
+output/*.nii
+output/*.nii.gz
+output/*.BRIK
+output/*.BRIK.gz
+output/*.HEAD
+output/*.brik
+output/*.brik.gz
+output/*.head
+
+# Keep output directory
+!output/.gitkeep
+
+# Subject list (may contain real IDs - use subject_list.txt.example as template)
+subject_list.txt
+data/subject_list.txt
+
+# OS
+.DS_Store
+Thumbs.db

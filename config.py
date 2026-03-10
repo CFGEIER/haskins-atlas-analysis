@@ -15,3 +15,9 @@ HASKINS_ATLAS = "HaskinsPeds_NL_atlas1.01.nii.gz"
 HASKINS_TEMPLATE = "HaskinsPeds_NL_template1.0_SSW.nii"
 FREESURFER_LUT = "FreeSurferColorLUT.txt"
 GROUP_MAP = "KidVid_group_prelim_030526+tlrc.HEAD"
+
+# Individual subject stats file pattern: {subj} = subject ID (e.g., 019, 021)
+STATS_FILE_PATTERN = "stats.sub-{subj}_REML+tlrc.HEAD"
+
+# Subject list file (one subject ID per line)
+SUBJECT_LIST_FILE = "subject_list.txt"

@@ -1,0 +1,7 @@
+# Subject IDs for ROI extraction (one per line)
+# Copy to subject_list.txt or data/subject_list.txt and add your subject IDs
+# Lines starting with # are ignored
+# Example:
+# 019
+# 021
+# 024
